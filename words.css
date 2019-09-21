@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container-fluid, .row {
+		display: flex;
+		background: limegreen;
+}
+
+.container-fluid {
+	height: 50vw;
+	text-align: left;
+	/*Flexbox */
+	justify-content: center;
+}
+
+.row {
+  /*Using Flexbox */
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.col {
+  box-sizing: border-box;
+}
+
+img {
+	margin: 12.5vw 50vw 10px 50vw;	
+}
+p {display: none;
+}
